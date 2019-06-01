@@ -1,0 +1,2 @@
+/usr/bin/ar qc libALG.a  CMakeFiles/ALG.dir/sort/Sort.cpp.o
+/usr/bin/ranlib libALG.a

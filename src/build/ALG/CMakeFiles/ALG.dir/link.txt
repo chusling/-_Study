@@ -1,0 +1,2 @@
+/usr/bin/ar qc libALG.a  CMakeFiles/ALG.dir/sort/Sort.cpp.o CMakeFiles/ALG.dir/autox/max_group.cpp.o
+/usr/bin/ranlib libALG.a

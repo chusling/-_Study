@@ -1,0 +1,24 @@
+Log file created at: 2019/05/29 23:52:46
+Running on machine: chusling-B360M-D3H
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0529 23:52:46.061717 24114 main.cpp:23] hello csl0
+I0529 23:52:46.062242 24114 main.cpp:23] hello csl1
+I0529 23:52:46.062260 24114 main.cpp:23] hello csl2
+I0529 23:52:46.062269 24114 main.cpp:23] hello csl3
+I0529 23:52:46.062278 24114 main.cpp:23] hello csl4
+I0529 23:52:46.062285 24114 main.cpp:23] hello csl5
+I0529 23:52:46.062297 24114 main.cpp:23] hello csl6
+I0529 23:52:46.062325 24114 main.cpp:23] hello csl7
+I0529 23:52:46.062343 24114 main.cpp:23] hello csl8
+I0529 23:52:46.062356 24114 main.cpp:23] hello csl9
+I0529 23:52:46.062369 24114 main.cpp:27] I am csl
+I0529 23:52:46.062382 24114 main.cpp:28] english,french,german
+I0529 23:52:46.062479 24114 Sort.cpp:37] temp: 100
+I0529 23:52:46.062500 24114 Sort.cpp:37] temp: 1
+I0529 23:52:46.062516 24114 Sort.cpp:37] temp: 300
+I0529 23:52:46.062531 24114 Sort.cpp:37] temp: 9
+I0529 23:52:46.062547 24114 Sort.cpp:37] temp: 26
+I0529 23:52:46.062561 24114 Sort.cpp:37] temp: 0
+I0529 23:52:46.062575 24114 Sort.cpp:37] temp: 887
+I0529 23:52:46.062589 24114 Sort.cpp:37] temp: 2
+I0529 23:52:46.062603 24114 Sort.cpp:37] temp: 15

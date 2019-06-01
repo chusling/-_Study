@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chusling/Documents/baidu/csl_study/src/ALG/sort/Sort.cpp
+Sort.h
+/home/chusling/Documents/baidu/csl_study/src/ALG/sort/Sort.h
+
+/home/chusling/Documents/baidu/csl_study/src/ALG/sort/Sort.h
+stdio.h
+-
+math.h
+-
+string.h
+-
+iostream
+-
+vector
+-
+glog/logging.h
+-
+

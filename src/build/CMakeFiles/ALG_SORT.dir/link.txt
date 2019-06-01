@@ -1,0 +1,1 @@
+/usr/bin/c++    -O0 -Wall -g2 -ggdb   CMakeFiles/ALG_SORT.dir/main.cpp.o  -o ALG_SORT -rdynamic ALG/libALG.a /home/chusling/glog/libglog.so.0.4.0 /home/chusling/gflags/lib/libgflags.a -lpthread -Wl,-rpath,/home/chusling/glog 
