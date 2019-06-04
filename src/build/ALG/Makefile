@@ -125,6 +125,33 @@ ALG/fast:
 	cd /home/chusling/Documents/baidu/csl_study/src/build && $(MAKE) -f ALG/CMakeFiles/ALG.dir/build.make ALG/CMakeFiles/ALG.dir/build
 .PHONY : ALG/fast
 
+autox/entry_time.o: autox/entry_time.cpp.o
+
+.PHONY : autox/entry_time.o
+
+# target to build an object file
+autox/entry_time.cpp.o:
+	cd /home/chusling/Documents/baidu/csl_study/src/build && $(MAKE) -f ALG/CMakeFiles/ALG.dir/build.make ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o
+.PHONY : autox/entry_time.cpp.o
+
+autox/entry_time.i: autox/entry_time.cpp.i
+
+.PHONY : autox/entry_time.i
+
+# target to preprocess a source file
+autox/entry_time.cpp.i:
+	cd /home/chusling/Documents/baidu/csl_study/src/build && $(MAKE) -f ALG/CMakeFiles/ALG.dir/build.make ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.i
+.PHONY : autox/entry_time.cpp.i
+
+autox/entry_time.s: autox/entry_time.cpp.s
+
+.PHONY : autox/entry_time.s
+
+# target to generate assembly for a file
+autox/entry_time.cpp.s:
+	cd /home/chusling/Documents/baidu/csl_study/src/build && $(MAKE) -f ALG/CMakeFiles/ALG.dir/build.make ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.s
+.PHONY : autox/entry_time.cpp.s
+
 autox/max_group.o: autox/max_group.cpp.o
 
 .PHONY : autox/max_group.o
@@ -188,6 +215,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ALG"
+	@echo "... autox/entry_time.o"
+	@echo "... autox/entry_time.i"
+	@echo "... autox/entry_time.s"
 	@echo "... autox/max_group.o"
 	@echo "... autox/max_group.i"
 	@echo "... autox/max_group.s"

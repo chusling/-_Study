@@ -105,19 +105,45 @@ ALG/CMakeFiles/ALG.dir/autox/max_group.cpp.o.provides: ALG/CMakeFiles/ALG.dir/au
 ALG/CMakeFiles/ALG.dir/autox/max_group.cpp.o.provides.build: ALG/CMakeFiles/ALG.dir/autox/max_group.cpp.o
 
 
+ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o: ALG/CMakeFiles/ALG.dir/flags.make
+ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o: ../ALG/autox/entry_time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chusling/Documents/baidu/csl_study/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o"
+	cd /home/chusling/Documents/baidu/csl_study/src/build/ALG && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ALG.dir/autox/entry_time.cpp.o -c /home/chusling/Documents/baidu/csl_study/src/ALG/autox/entry_time.cpp
+
+ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ALG.dir/autox/entry_time.cpp.i"
+	cd /home/chusling/Documents/baidu/csl_study/src/build/ALG && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chusling/Documents/baidu/csl_study/src/ALG/autox/entry_time.cpp > CMakeFiles/ALG.dir/autox/entry_time.cpp.i
+
+ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ALG.dir/autox/entry_time.cpp.s"
+	cd /home/chusling/Documents/baidu/csl_study/src/build/ALG && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chusling/Documents/baidu/csl_study/src/ALG/autox/entry_time.cpp -o CMakeFiles/ALG.dir/autox/entry_time.cpp.s
+
+ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o.requires:
+
+.PHONY : ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o.requires
+
+ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o.provides: ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o.requires
+	$(MAKE) -f ALG/CMakeFiles/ALG.dir/build.make ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o.provides.build
+.PHONY : ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o.provides
+
+ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o.provides.build: ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o
+
+
 # Object files for target ALG
 ALG_OBJECTS = \
 "CMakeFiles/ALG.dir/sort/Sort.cpp.o" \
-"CMakeFiles/ALG.dir/autox/max_group.cpp.o"
+"CMakeFiles/ALG.dir/autox/max_group.cpp.o" \
+"CMakeFiles/ALG.dir/autox/entry_time.cpp.o"
 
 # External object files for target ALG
 ALG_EXTERNAL_OBJECTS =
 
 ALG/libALG.a: ALG/CMakeFiles/ALG.dir/sort/Sort.cpp.o
 ALG/libALG.a: ALG/CMakeFiles/ALG.dir/autox/max_group.cpp.o
+ALG/libALG.a: ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o
 ALG/libALG.a: ALG/CMakeFiles/ALG.dir/build.make
 ALG/libALG.a: ALG/CMakeFiles/ALG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chusling/Documents/baidu/csl_study/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libALG.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chusling/Documents/baidu/csl_study/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libALG.a"
 	cd /home/chusling/Documents/baidu/csl_study/src/build/ALG && $(CMAKE_COMMAND) -P CMakeFiles/ALG.dir/cmake_clean_target.cmake
 	cd /home/chusling/Documents/baidu/csl_study/src/build/ALG && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ALG.dir/link.txt --verbose=$(VERBOSE)
 
@@ -128,6 +154,7 @@ ALG/CMakeFiles/ALG.dir/build: ALG/libALG.a
 
 ALG/CMakeFiles/ALG.dir/requires: ALG/CMakeFiles/ALG.dir/sort/Sort.cpp.o.requires
 ALG/CMakeFiles/ALG.dir/requires: ALG/CMakeFiles/ALG.dir/autox/max_group.cpp.o.requires
+ALG/CMakeFiles/ALG.dir/requires: ALG/CMakeFiles/ALG.dir/autox/entry_time.cpp.o.requires
 
 .PHONY : ALG/CMakeFiles/ALG.dir/requires
 

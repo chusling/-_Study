@@ -8,10 +8,8 @@ namespace autox {
 struct comp {
     bool operator () (const shared_ptr<car_info> car_a, 
                       const shared_ptr<car_info> car_b) const {
-
         return car_a->location < car_b->location;
-    }
-    
+    } 
     /* data */
 };
 
